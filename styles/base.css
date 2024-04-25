@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Rock+Salt&display=swap');
 
-* {
-	margin: 0;
-	padding: 0;
-
-}
-
-
 .header_photo{
     background-color: #36516c;
     display: block;
@@ -95,7 +88,6 @@
 
 
 
-  /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
   .open li {
     display: block;
     width: 100%;
@@ -158,14 +150,16 @@ section li {
 
   .li-aligned{
     display: flex;
-    
+  }
+  
+.li-aligned a,h4{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .Week{padding-right: 10px;}
 
-.li-aligned a,h4{
-    padding-left: 10px;
-}
+
 
 
   .weather{
