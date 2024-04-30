@@ -51,6 +51,18 @@
 		font-weight: 700;
 	}
 
+	/*Dark Mode*/
+
+	#mode {
+		position: absolute;
+		top: 1.5rem;
+		right: 20px;
+		font-size: 3rem;
+		cursor: pointer;
+		font-size: 2rem;
+	}
+	
+
 	main{
 		grid-template-columns: 1fr ; 
 	 }
