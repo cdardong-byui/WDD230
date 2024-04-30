@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wdd 230 - Cristian Dardon</title>
+    <meta name="Crstian Dardon" content="BYU-I Student" />
+    <link rel="icon" href="favicon.ico"/>
+    <meta name="author" content="Cristian Dardon">
+    <meta name="theme-color" content="#317EFB"/>
+    <meta property="og:title" content="Responsive Images: srcset">
+    <meta property="og:description" content="Website dedicated to frontend web development learning led by BYU-I university">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdardong-byui.github.io/wdd230/images/guatemala-city.jpg">
+    <meta property="og:url" content="https://cdardong-byui.github.io/wdd230/">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+    <link rel="icon" href="../../favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Responsive Images: srcset</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+              <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+              <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+              <img src="images/hero-large.webp" alt="table setting" width="1500" height="750">
+            </picture>
+          </div>
+    </main>
+    <footer>
+        <span>&copy;</span> 
+        <p id="year">|</p> 
+        <p id="name-footer"></p> 
+        <p id="country-name">Guatemala, Guatemala</p> 
+        <p id="last-modified"> </p>
+    </footer>
+    <script src="scripts/getdates.js"></script>  
+</body>
+</html>

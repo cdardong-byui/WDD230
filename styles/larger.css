@@ -16,6 +16,10 @@
 	 
 	   } 
 
+	   #menu {
+		display: none; /* hide hamburger button */
+	}
+
 	nav ul {
 		display: flex;
 	}
@@ -62,6 +66,12 @@
      .card-1{
         flex-grow: 2;
      }
+
+	 section li,a {
+		list-style: none;
+		padding-left: 1rem;
+		display: flex;
+	  }
      .card-2{
         flex-grow: 1;
      }

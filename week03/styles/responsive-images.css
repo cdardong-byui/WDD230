@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer p{
+    margin-left: 10px;
+}

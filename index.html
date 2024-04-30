@@ -15,6 +15,7 @@
     <meta property="og:url" content="https://cdardong-byui.github.io/wdd230/">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
@@ -25,6 +26,7 @@
         </div>
   </header>
   <nav>
+    <button id="menu"></button>
     <ul class="navigation">
 		<li><a href="#" class="active">Home</a></li>
         <li><a href="./week01/chamber-site-plan.html">Site Plan</a></li>
@@ -34,7 +36,6 @@
 	</ul>
   </nav>
   <main>
-    <h1>WDD 230 - Web Frontend Development</h1>
     <div class="main-card">
         <section class="card-1">
             <div class="title-card">
@@ -42,11 +43,25 @@
             </div>
             <div class="activities">
                 <ol>
-                    <li class="li-aligned">
+                    <li>
                         <span>Week1: </span>
                         <a href="./week01/holygrail.html"> Holy Grail</a><span>|</span>
                         <a href="https://codepen.io/Cristian-Joaquin-Dardon-Godoy/pen/bGJzxxL"> Java Script</a> <span>|</span>
                         <a href="./week01/media_query.html">Responsive Design: CSS Media Queries</a> 
+                    </li>
+                    <li>
+                      <span>Week2: </span>
+                      <a href="week02/design.html">Web Design Principles</a> <span>|</span>
+                      <a href="https://codepen.io/Cristian-Joaquin-Dardon-Godoy/pen/dyLLBLj">Responsive Navigation</a> <span>|</span>
+                      <a href="week02/bom.html">DOM Manipulation</a> <span>|</span>
+
+                   
+                    </li>
+                    <li>
+                      <span>Week3: </span>
+                      <a href="week03/images/landscape.webp">WebP</a> <span>|</span>
+                      <a href="week03/lazyload.html">lazyload</a> <span>|</span>
+                      <a href="week03/responsive-images.html">Responsive Images: srcset</a>
                     </li>
                 </ol>
             </div>
@@ -74,7 +89,7 @@
   </main>
   <footer>
     <div class="footer-section">      
-        <span>&copy;</span>
+        <span>&copy;</span> 
         <p id="year"></p> 
         <img class="weather" src="images/sunshine.webp" alt="preset icon">
         <p id="name-footer"></p>
@@ -86,6 +101,7 @@
         <p id="last-modified"></p> 
     </div>
   </footer>
+  <script src="scripts/responsive.js"></script>
   <script src="scripts/getdates.js"></script>  
 </body>
 </html>
