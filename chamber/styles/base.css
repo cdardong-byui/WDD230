@@ -106,6 +106,7 @@ nav a:hover {
 
 .button-box{
   text-align: center;
+  background-color: #7F2629;
   padding: 10px 60px;
   color: #fff;
   border: 2px solid #000000;
@@ -116,23 +117,24 @@ nav a:hover {
   cursor: pointer;
   font-family: var(--heading-font);
   font-weight: bold;
-  cursor: pointer;}
+  cursor: pointer;
+}
 
   .button-box:hover,
           .button-box:active {
             background-color: #888182;
-            color: #ffffff;
+            color: #7F2629;
             transition: background-color 0.3s ease-in,
                         color 0.3s ease-in;
                         border: 2px solid #888182;
           }
 
 .button-box a{
-  color: #000000;
+  color: #fff;
   text-decoration: none;
 }
 .button-box a:hover{
-  color: #ffffff;
+  color: #7F2629;
   text-decoration: none;
 }
 
