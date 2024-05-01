@@ -18,7 +18,7 @@ const header = document.querySelector("#header");
 const nav = document.querySelector("#nav");
 
 modeButton.addEventListener("click", () => {
-	if (modeButton.textContent.includes("🕶️")) {
+	if (modeButton.textContent.includes("🌃")) {
 		main.style.background = "#000";
 		main.style.color = "#fff";
 		modeButton.textContent = "🔆";
@@ -33,7 +33,7 @@ modeButton.addEventListener("click", () => {
 	} else {
 		main.style.background = "#eee";
 		main.style.color = "#000";
-		modeButton.textContent = "🕶️";
+		modeButton.textContent = "🌃";
 		body.style.background ="#fff";
 		footer.style.background ="#1D4D72"
 		titleCard.style.background ="#1D4D72";
