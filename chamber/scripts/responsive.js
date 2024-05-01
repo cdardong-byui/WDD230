@@ -14,6 +14,7 @@ hamburger.addEventListener('click', () => {
 });
 
 const modeButton = document.querySelector("#mode");
+const body = document.querySelector("body");
 const main = document.querySelector("#main");
 const weather = document.querySelector("#weather");
 const spot = document.querySelector("#spot");
@@ -38,7 +39,7 @@ modeButton.addEventListener("click", () => {
         container.style.background = "#000000";
         header.style.background='#8e8a8a';
         header.style.color = '#fff';
-        
+        body.background= "#00ddd0";
         herobox.style.background='#000000';
         weather.style.background ='#000000';
         spot.style.background ='#000000';
