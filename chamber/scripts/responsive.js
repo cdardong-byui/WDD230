@@ -15,7 +15,7 @@ hamburger.addEventListener('click', () => {
 
 const modeButton = document.querySelector("#mode");
 const body = document.querySelector("body");
-const main = document.querySelector("#main");
+const main = document.querySelector("main");
 const weather = document.querySelector("#weather");
 const spot = document.querySelector("#spot");
 const spot1 = document.querySelector("#spot1");

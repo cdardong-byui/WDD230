@@ -149,7 +149,10 @@
         padding: 10px;
         
       }
-    
+
+
+
+     
       
 
       .footer1{
@@ -190,6 +193,37 @@
         margin: 1rem;
     }
     
+
+    .discover div:hover{
+        -moz-box-shadow: 0 0 10px #ccc;
+        -webkit-box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 10px #ccc;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .sidebar {
+        background-color: #f0f0f0;
+        color: #7F2629;
+        padding: 20px;
+    }
+
+    .main-content {
+        display: flex;
+        gap: 20px;
+    }
+
+    .main-content img {
+        max-width: 100%;
+        /* Set a specific width for main content images */
+        width: 100%;
+        max-width: 600px; /* Adjust this width as needed */
+    }
 
            
       
