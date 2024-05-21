@@ -1,4 +1,4 @@
-const baseURL = "https://cdardongbyui.github.io/wdd230/"; 
+const baseURL = "https://cdardong-byui.github.io/wdd230/"; 
 const linksURL = "data/links.json"; 
 
 async function getLinks() {
@@ -27,8 +27,8 @@ function displayLinks(weeks) {
       ltd.appendChild(a); // Append the link to the div
       if (index < week.links.length - 1) {
         const separator = document.createElement("span");
-        separator.textContent = " | "; // Add a separator between links
-        ltd.appendChild(separator);
+       // separator.textContent = " | "; // Add a separator between links
+        //ltd.appendChild(separator);
       }
     });
 

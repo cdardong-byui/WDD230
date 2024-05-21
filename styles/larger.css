@@ -100,4 +100,21 @@
         border: none;
         }
 
+
+		table, td{
+			border: 1px solid black;	
+			margin-left: 200px;
+			
+		  }
+
+		  
+		  tr{width: 300px;}
+		  
+
+		  
+
+
+		 
+
+		  
 }

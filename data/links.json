@@ -8,8 +8,12 @@
             "title": "Holy Grail"
           },
           {
-            "url": "https://codepen.io/Cristian-Dardon/pen/WNLdxNv",
-            "title": "Code Pen"
+            "url": "https://codepen.io/Cristian-Joaquin-Dardon-Godoy/pen/bGJzxxL",
+            "title": "Java Script"
+          },
+          {
+            "url": "week01/media_query.html",
+            "title": "Responsive Design: CSS Media Queries"
           }
         ]
       },
@@ -17,16 +21,16 @@
         "lesson": "02",
         "links": [
           {
-            "url": "lesson02/design.html",
-            "title": "Web Design Codepen"
+            "url": "week02/design.html",
+            "title": "Web Design Principles"
           },
           {
-            "url": "lesson02/media-query.html",
-            "title": "Media Query"
+            "url": "https://codepen.io/Cristian-Joaquin-Dardon-Godoy/pen/dyLLBLj",
+            "title": "Responsive Navigation"
           },
           {
-            "url": "lesson02/design-principles.html",
-            "title": "Design Principles"
+            "url": "week02/bom.html",
+            "title": "DOM Manipulation"
           }
         ]
       },
@@ -34,16 +38,20 @@
         "lesson": "03",
         "links": [
           {
-            "url": "lesson03/03_Learning_Activities.png",
-            "title": "CSS Combinators"
+            "url": "week03/images/landscape.webp",
+            "title": "WebP"
           },
           {
-            "url": "https://codepen.io/Cristian-Dardon/pen/MWZXYgK",
-            "title": "CSS Pseudo Elements"
+            "url": "week03/lazyload.html",
+            "title": "lazyload"
           },
           {
-            "url": "https://codepen.io/Cristian-Dardon/pen/abPKzvy",
-            "title": "Responsive Menu"
+            "url": "week03/responsive-images.html",
+            "title": "Responsive Images: srcset"
+          },
+          {
+            "url": "week03/bom.html",
+            "title": "Web Storage API - localStorage"
           }
         ]
       },
@@ -51,8 +59,24 @@
         "lesson": "04",
         "links": [
           {
-            "url": "https://codepen.io/Cristian-Dardon/pen/KKbGrav",
-            "title": "CSS Pseudo Classes"
+            "url": "https://codepen.io/Cristian-Joaquin-Dardon-Godoy/pen/WNBvbWa",
+            "title": "CSS Pseudo-classes"
+          },
+          {
+            "url": "week04/images/css-combinators.png",
+            "title": "CSS Combinators"
+          },
+          {
+            "url": "week04/tablebuild.html",
+            "title": "able Build"
+          },
+          {
+            "url": "week04/index.html",
+            "title": "HTML Forms"
+          },
+          {
+            "url": "form.html",
+            "title": "Team Activity - Form"
           }
         ]
       },
@@ -60,94 +84,24 @@
         "lesson": "05",
         "links": [
           {
-            "url": "lesson05/bom.html",
-            "title": "DOM Manipulation"
-          }
-        ]
-      },
-      {
-        "lesson": "06",
-        "links": [
-          {
-            "url": "lesson06/images/landscape.webp",
-            "title": "WebP"
+            "url": "https://codepen.io/Cristian-Joaquin-Dardon-Godoy/pen/dyEMNZZ",
+            "title": "Pseudo-element"
           },
           {
-            "url": "lesson06/responsive-images.html",
-            "title": "Responsive Image Site"
-          }
-        ]
-      },
-      {
-        "lesson": "07",
-        "links": [
-          {
-            "url": "lesson07/lazyload.html",
-            "title": "Lazy Loading"
-          },
-          {
-            "url": "lesson07/bom.html",
-            "title": "Local Storage"
-          }
-        ]
-      },
-      {
-        "lesson": "08",
-        "links": [
-          {
-            "url": "lesson08/tablebuild.html",
-            "title": "Table Build"
-          },
-          {
-            "url": "lesson08/index.html",
-            "title": "HTML Build"
-          },
-          {
-            "url": "form.html",
-            "title": "Form Build"
-          }
-        ]
-      },
-      {
-        "lesson": "09",
-        "links": [
-          {
-            "url": "lesson09/new-ward-members.json",
+            "url": "week05/new-ward-members.json",
             "title": "Json"
           },
           {
-            "url": "lesson09/prophets.html",
-            "title": "Fetch API"
-          }
-        ]
-      },
-      {
-        "lesson": "10",
-        "links": [
+            "url": "week05/prophets.html",
+            "title": "The Fetch API"
+          },
           {
-            "url": "#",
-            "title": "Activity 10"
-          }
-        ]
-      },
-      {
-        "lesson": "11",
-        "links": [
-          {
-            "url": "#",
-            "title": "Activity 11"
-          }
-        ]
-      },
-      {
-        "lesson": "12",
-        "links": [
-          {
-            "url": "#",
-            "title": "Activity 12"
+            "url": "week05/weather.html",
+            "title": "Consuming a Weather API"
           }
         ]
       }
+      
     ]
   }
   
