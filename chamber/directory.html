@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guatemala Chamber of Commerce</title>
+    <meta name="description" content="Welcome to the  Chamber of Commerce">
+    <meta name="author" content="Cristian Dardon">
+    <meta property="og:title" content="Guatemala Chamber - Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdardong-byui.github.io/wdd230/chamber/images/guatemala_chamber.jpg">
+    <meta property="og:url" content="https://ccg.com.gt/">
+    <link rel="icon" href="../chamber/images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    
+    <link rel="stylesheet" href="styles/large.css">
+    
+
+</head>
+<body>
+    <header id="header">
+        <!--  <div id="mode">
+          🌃  
+        </div> -->
+        <!-- Navigation menu goes here -->
+        <div id="logo">
+            <a href="index.html"><img src="images/chamber_logo.webp" alt="Guatemala Chamber of Commerce Logo"></a>
+            
+        </div>
+        <a href="#" id="hamburger">&#9776;</a>
+        <nav>
+            <ul>
+                <li><a href="index.html" id="link1">Home</a></li>
+                <li><a href="discover.html" id="link2">Discover</a></li>
+                <li><a href="directory.html" id="link3">Directory</a></li>
+                <li><a href="join.html" id="link4">Join</a></li>
+            </ul>
+        </nav>
+        <section class="socials">
+            <a href="https://www.facebook.com/camaradecomerciodeguatemala"><img src="images/facebook.png" alt="Facebook Logo and Link to our Facebook"></a>
+            <a href="https://www.linkedin.com/company/camara-de-comercio-de-guatemala/?originalSubdomain=gt"><img src="images/linkedin.png" alt="Instagram Logo and Link to our Instagram"></a>
+            
+        </section>
+    </header>
+    <div class="join-header">
+        <h1>Directory</h1>
+   </div>
+   <br>
+    <div>
+        <button onclick="toggleView('grid-view')">Grid View</button>
+        <button onclick="toggleView('list-view')">List View</button>
+    </div>       
+    <br>
+    <main class="directory" id="directory">
+        <!-- Dynamically fill with javascript and json -->
+
+        <div class="table-view" style="display: none;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Phone</th>
+                        <th>Website</th>
+                        <th>Membership Level</th>
+                        <th>Perks</th>
+                        <th>Pricing</th>
+                        <th>Other Info</th>
+                    </tr>
+                </thead>
+                <tbody id="table-container">
+                    <!-- Table rows will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer id="footer">
+         <div class="footer-container">
+            <section class="footer1">
+                <img src="../chamber/images/chamber_logo.png" alt="">    
+                <div class="address">
+                    <h4>Guatemala Chamber of Commerce</h4>
+                    <p>10 Calle 3-80, Zona 1, Guatemala City, Guatemala</p>
+                </div>                        
+            </section>
+            <section class="footer2">
+            <p>&copy; <span id="currentYear"></span> | Cristian Dardon | Guatemala City | Last Modified<span id="lastModified"></span></p> 
+                                       
+            </section>
+            <section class="footer3">
+                <h2>Contact Us...</h2>  
+                <p>info@ccg.gt</p>                          
+            </section>
+         </div>
+            
+    </footer>
+    
+    <!-- Include JavaScript for dynamic last modified date -->
+    <script src="scripts/responsive.js"></script>
+    <script src="scripts/discover.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/directory.js"></script>
+</body>
+</html>
