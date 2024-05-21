@@ -1,0 +1,153 @@
+{
+    "lessons": [
+      {
+        "lesson": "01",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "Holy Grail"
+          },
+          {
+            "url": "https://codepen.io/Cristian-Dardon/pen/WNLdxNv",
+            "title": "Code Pen"
+          }
+        ]
+      },
+      {
+        "lesson": "02",
+        "links": [
+          {
+            "url": "lesson02/design.html",
+            "title": "Web Design Codepen"
+          },
+          {
+            "url": "lesson02/media-query.html",
+            "title": "Media Query"
+          },
+          {
+            "url": "lesson02/design-principles.html",
+            "title": "Design Principles"
+          }
+        ]
+      },
+      {
+        "lesson": "03",
+        "links": [
+          {
+            "url": "lesson03/03_Learning_Activities.png",
+            "title": "CSS Combinators"
+          },
+          {
+            "url": "https://codepen.io/Cristian-Dardon/pen/MWZXYgK",
+            "title": "CSS Pseudo Elements"
+          },
+          {
+            "url": "https://codepen.io/Cristian-Dardon/pen/abPKzvy",
+            "title": "Responsive Menu"
+          }
+        ]
+      },
+      {
+        "lesson": "04",
+        "links": [
+          {
+            "url": "https://codepen.io/Cristian-Dardon/pen/KKbGrav",
+            "title": "CSS Pseudo Classes"
+          }
+        ]
+      },
+      {
+        "lesson": "05",
+        "links": [
+          {
+            "url": "lesson05/bom.html",
+            "title": "DOM Manipulation"
+          }
+        ]
+      },
+      {
+        "lesson": "06",
+        "links": [
+          {
+            "url": "lesson06/images/landscape.webp",
+            "title": "WebP"
+          },
+          {
+            "url": "lesson06/responsive-images.html",
+            "title": "Responsive Image Site"
+          }
+        ]
+      },
+      {
+        "lesson": "07",
+        "links": [
+          {
+            "url": "lesson07/lazyload.html",
+            "title": "Lazy Loading"
+          },
+          {
+            "url": "lesson07/bom.html",
+            "title": "Local Storage"
+          }
+        ]
+      },
+      {
+        "lesson": "08",
+        "links": [
+          {
+            "url": "lesson08/tablebuild.html",
+            "title": "Table Build"
+          },
+          {
+            "url": "lesson08/index.html",
+            "title": "HTML Build"
+          },
+          {
+            "url": "form.html",
+            "title": "Form Build"
+          }
+        ]
+      },
+      {
+        "lesson": "09",
+        "links": [
+          {
+            "url": "lesson09/new-ward-members.json",
+            "title": "Json"
+          },
+          {
+            "url": "lesson09/prophets.html",
+            "title": "Fetch API"
+          }
+        ]
+      },
+      {
+        "lesson": "10",
+        "links": [
+          {
+            "url": "#",
+            "title": "Activity 10"
+          }
+        ]
+      },
+      {
+        "lesson": "11",
+        "links": [
+          {
+            "url": "#",
+            "title": "Activity 11"
+          }
+        ]
+      },
+      {
+        "lesson": "12",
+        "links": [
+          {
+            "url": "#",
+            "title": "Activity 12"
+          }
+        ]
+      }
+    ]
+  }
+  

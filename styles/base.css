@@ -189,6 +189,10 @@ section li,a {
     font-size: 22px;
   }
 
+  .activities table{
+    background: red;
+  }
+
 
   .card-information{
   text-align: center;

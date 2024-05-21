@@ -56,17 +56,19 @@
         <section class="card-1">
             <div class="title-card" id="title-card">
               <h3>Learning Activities</h3>
+              
             </div>
             <div class="activities">
-                <ol>
+             <table id="activity-links"></table> 
+                <!--<ol>
                     <li>
                         <span>Week1: </span>
-                        <a href="./week01/holygrail.html"> Holy Grail</a>
+                        <a href="week01/holygrail.html"> Holy Grail</a>
                         <a href="https://codepen.io/Cristian-Joaquin-Dardon-Godoy/pen/bGJzxxL"> Java Script</a> 
-                        <a href="./week01/media_query.html">Responsive Design: CSS Media Queries</a> 
+                        <a href="week01/media_query.html">Responsive Design: CSS Media Queries</a> 
                     </li>
                     <li>
-                      <span>Week2: </span>
+                      <span>Week 2: </span>
                       <a href="week02/design.html">Web Design Principles</a> 
                       <a href="https://codepen.io/Cristian-Joaquin-Dardon-Godoy/pen/dyLLBLj">Responsive Navigation</a> 
                       <a href="week02/bom.html">DOM Manipulation</a> 
@@ -74,7 +76,7 @@
                    
                     </li>
                     <li>
-                      <span>Week3: </span>
+                      <span>Week 3: </span>
                       <a href="week03/images/landscape.webp">WebP</a> 
                       <a href="week03/lazyload.html">lazyload</a> 
                       <a href="week03/responsive-images.html">Responsive Images: srcset</a>
@@ -88,7 +90,14 @@
                       <a href="week04/index.html">HTML Forms</a>
                       <a href="form.html">Team Activity - Form</a>
                     </li>
-                </ol>
+                    <li>
+                      <span>Week 5</span>
+                      <a href="https://codepen.io/Cristian-Joaquin-Dardon-Godoy/pen/dyEMNZZ">Pseudo-element</a>
+                      <a href="week05/new-ward-members.json">Json</a>
+                      <a href="week05/prophets.html">The Fetch API</a>
+                      <a href="week05/weather.html">Consuming a Weather API</a>
+                    </li>
+                </ol>-->
             </div>
           </section>
           <section class="card-2">
@@ -98,11 +107,12 @@
             <div class="card-information">
                 <div><h3>Guatemala Guatemala</h3></div>
                 <div class="items-box">
-                  <h2><span id="temp"></span>&#8457;</h2>
+                  <h2><span id="current-temp"></span></h2>
                   
-                      <img src="#" alt="Placeholder" id="weathericon" />
-                        <figure></figure>
-                  <span id="Wind"></span>
+                  <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
                 </div>
                 <br>
                 <div>		            
@@ -135,5 +145,7 @@
   <script src="scripts/responsive.js"></script>
   <script src="scripts/getdates.js"></script>  
   <script src="scripts/windchill.js"></script>
+  <script src="scripts/weather.js"></script> 
+  <script src="scripts/links.js"></script>
 </body>
 </html>
