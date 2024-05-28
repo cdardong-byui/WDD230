@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Rock+Salt&display=swap');
 
+
+
 .header_photo{
     background-color: #36516c;
     display: block;
@@ -264,3 +266,36 @@ section li,a {
 
 
 
+  #weather-card{
+    text-align: center;
+    padding: 10px;
+  }
+  .weather{
+    border: 1px solid black;
+  
+  }
+  .weather div > *{
+  margin: 0.1rem;
+  }
+  
+  .w-icon{
+    height: 45px;
+    max-width: 100%;
+  }
+  
+  #weather-icon{
+    height: 50px;
+    max-width: 100%;
+  }
+
+  #weather-card {
+    grid-column: 4/5;
+    grid-row: 1/3;
+  }
+  #weather-icon{
+    height: 50px;
+    width: 50px;
+  }
+
+
+  

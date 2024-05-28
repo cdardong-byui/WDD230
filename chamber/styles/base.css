@@ -589,3 +589,50 @@ button {
   padding: 5px 10px;
   cursor: pointer;
 }
+
+.grid-container-weather {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 30px 150px;
+  width: 150px;
+  
+  
+  
+  
+}
+
+.grid-container-weather > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  
+  
+}
+
+#forecast-day-1,#forecast-day-2,#forecast-day-3,#fig2,#fig3,#fig4,#forecast-temp-1,#forecast-temp-2,#forecast-temp-3{
+  font-size: 16px;
+}
+
+.announcement-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #7F2629;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.close-button {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #fff;
+  color: #7F2629;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-right: 40px;
+}

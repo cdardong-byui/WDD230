@@ -296,6 +296,7 @@
           display: grid;
           grid-template-columns: 25% 25% 25% 25%;
       }
+      
   }
   
   @media screen and (min-width: 700px) {
@@ -305,6 +306,7 @@
           background-color: #fff;
           color: #002a5c;
       }
+      
   }
 
     /* Table view styles */
@@ -353,6 +355,7 @@
       cursor: pointer;
   }
   
+ 
     
       
   }
